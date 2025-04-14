@@ -18,7 +18,7 @@ public class Ventana {
                 try {
                     Pila pilas = new Pila();
                     String codigo = txtCodigo.getText();
-                    txtArea.setText(""); // Limpiar antes de iniciar
+                    txtArea.setText(""); 
 
                     for (int i = 0; i <= codigo.length() - 1; i++) {
                         char c = codigo.charAt(i);
